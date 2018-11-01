@@ -1,6 +1,8 @@
 # Istio with Kubernetes Workshop
-- A HTML version of this file is published at http://sfeir.github.io/kubernetes-istio-workshop/
-- The source code is available at https://github.com/sfeir/kubernetes-istio-workshop/
+
+* A HTML version of this file is published at http://sfeir.github.io/kubernetes-istio-workshop/
+* The source code is available at https://github.com/sfeir/kubernetes-istio-workshop/
+
 
 # Deploy workshop docs on httpd server
 ```bash
