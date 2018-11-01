@@ -1,12 +1,14 @@
-= Istio with Kubernetes Workshop
-:toc: macro
-:toc-title: Table of Contents
-:toclevels: 3
-:icons: font
-:data-uri:
-:source-highlighter: highlightjs
+# Istio with Kubernetes Workshop
+
+* A HTML version of this file is published at http://sfeir.github.io/kubernetes-istio-workshop/
+* The source code is available at https://github.com/sfeir/kubernetes-istio-workshop/
 
 
-- A HTML version of this file is published at http://sfeir.github.io/kubernetes-istio-workshop/
+# Deploy workshop docs on httpd server
+```bash
+sudo docker build -t k8s-istio-docs .
+```
+```bash
+sudo docker run -dit --name doc1 -p 8080:80 k8s-istio-docs:latest
+```
 
-- The source code is available at https://github.com/sfeir/kubernetes-istio-workshop/
