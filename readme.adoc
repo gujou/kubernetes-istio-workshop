@@ -9,6 +9,6 @@
 sudo docker build -t k8s-istio-docs .
 ```
 ```bash
- sudo docker run -dit --name doc1 -p 8080:80 k8s-istio-docs:latest
+sudo docker run -dit --name doc1 -p 8080:80 k8s-istio-docs:latest
 ```
 
